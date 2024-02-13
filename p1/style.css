@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-size: 28px;
+  background-color: #dea47e;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  padding-top: 0.5em;
+  background-color: #a1e8cc;
+}
+
+.header h2 {
+  text-align: center;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #e072a4;
+  width: 0%;
+}
+
+.content {
+  padding: 3em 0;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin: 50px auto 0 auto;
+  width: 80%;
+}
+
+h1{
+	font-family: 'Playfair Display SC', sans-serif;
+	font-style: bold;
+	font-weight: 700;
+  font-size: 2em;
+}
+
+a{
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 700;
+  font-style: bold;
+  text-decoration: none;
+}
+
+h2{
+	font-family: 'Playfair Display', sans-serif;
+  font-weight: 600;
+  font-style: bold;
+}
+
+h3 {
+  font-weight:400;
+  font-size:0.4em;
+}
+
+p, button, pre{
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 200;
+  font-size: 0.35em;
+}
+
+.card-body {
+  margin-top: 1em;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 0.75em;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background: #e072a4;
+  border: none;
+  border-bottom: 2px solid green;
+}
+
+.nav-link{
+  background-color: 613f75;
+}
+
+a>h2{
+  color: #251101;
+}
+
+.tab-content{
+  margin-top: 0.3em;
+  line-height:0.5em;
+}
+
+img{
+  width:100%;
+}
